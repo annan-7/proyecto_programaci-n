@@ -68,3 +68,10 @@ btn_VT_677.on_clicked(make_loader("VT__677.npy"))
 btn_VT_679.on_clicked(make_loader("VT__679.npy"))
 
 plt.show()
+
+suma_valores= np.sum(data)
+num_valores = len(data)
+promedio_senal = suma_valores / num_valores
+datos_alcuadrado= np.sum((data - promedio_senal)**2)
+varianza = datos_alcuadrado / num_valores
+desviacion_estandar = np.sqrt(varianza)
