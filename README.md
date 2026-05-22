@@ -19,8 +19,6 @@ El programa detecta automáticamente los archivos disponibles, permite seleccion
   - Desviación estándar
 
 ## Lib Utilizadas
-
-- Python
 - NumPy
 - Matplotlib
 
